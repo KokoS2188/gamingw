@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Gaming Hub</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #4CAF50, #2c7a29);
+            padding: 1rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 3rem 2rem;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .hero-section {
+            background-image: url('https://cdn.pixabay.com/photo/2016/11/29/09/08/gamer-1869747_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 5rem 2rem;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            position: relative;
+        }
+        .hero-section h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .game-card {
+            width: 250px;
+            background: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .game-card img {
+            width: 100%;
+            height: auto;
+        }
+        .game-card h3 {
+            margin: 0.5rem;
+            color: #4CAF50;
+        }
+        .game-card p {
+            margin: 0.5rem;
+            color: #ccc;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+        }
+        footer {
+            background: #333;
+            padding: 2rem 0;
+            text-align: center;
+            color: #fff;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ultimate Gaming Hub</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="https://fortnitetracker.com/profile/all/OO%20Stafo%E3%83%84" target="_blank">Games</a>
+        <a href="https://www.tiktok.com/@winshit12" target="_blank">Contact</a>
+    </nav>
+
+    <section class="hero-section">
+        <h2>Welcome to the Ultimate Gaming Hub</h2>
+        <p>Your go-to destination for the best gaming experiences</p>
+    </section>
+
+    <section id="games">
+        <h2>Featured Games</h2>
+        <div class="game-container">
+            <div class="game-card">
+                <img src="https://cdn2.unrealengine.com/fnbr-32-00-c5s5-clyde-discoverplaylist-tiles-br-1920x1080-1920x1080-0977ce162863.jpg" alt="Fortnite">
+                <h3>Fortnite</h3>
+                <p>Join the battle royale and show your skills!</p>
+            </div>
+            <div class="game-card">
+                <img src="https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_Minecraft.jpg" alt="Minecraft">
+                <h3>Minecraft</h3>
+                <p>Build, explore, and survive in a blocky world.</p>
+            </div>
+            <div class="game-card">
+                <img src="https://images.ctfassets.net/wn7ipiv9ue5v/2ahyHg8BNyT05FwW3U2hdT/09b44b237ac9c81b84de5373bb4d6998/Fixed_Aspect_Ratio_Image__1_.jpg" alt="Grand Theft Auto">
+                <h3>Grand Theft Auto</h3>
+                <p>Experience the open-world adventure of crime and chaos.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ultimate Gaming Hub. Made by T.N.C.</p>
+    </footer>
+</body>
+</html>
